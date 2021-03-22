@@ -3,8 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/laura/Google%20Drive/ITSON/Semestre%206/Sistemas%20Distribuidos/Sistemas%20Distribuidos/Aplicaciones%20Websocket/ClienteWebsocket/web/index.html</file>
-            <file>file:/C:/Users/laura/Google%20Drive/ITSON/Semestre%206/Sistemas%20Distribuidos/Sistemas%20Distribuidos/Aplicaciones%20Websocket/ClienteWebsocket/src/java/websocket/WebSockete.java</file>
+            <file>file:/C:/Users/user/Documents/ITSON/Semestre%206/Sistemas%20Distribuidos/WebService/web/index.html</file>
+            <file>file:/C:/Users/user/Documents/ITSON/Semestre%206/Sistemas%20Distribuidos/WebService/nbproject/build-impl.xml~</file>
+            <file>file:/C:/Users/user/Documents/ITSON/Semestre%206/Sistemas%20Distribuidos/WebService/src/java/dominio/Mensaje.java</file>
+            <file>file:/C:/Users/user/Documents/ITSON/Semestre%206/Sistemas%20Distribuidos/WebService/src/java/dominio/Usuario.java</file>
+            <file>file:/C:/Users/user/Documents/ITSON/Semestre%206/Sistemas%20Distribuidos/WebService/src/java/websocket/WebsocketEP.java</file>
         </group>
     </open-files>
 </project-private>

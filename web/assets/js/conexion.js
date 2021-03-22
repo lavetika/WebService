@@ -14,6 +14,8 @@ function click() {
     mensaje.contenido=txtMsj.value
     mensaje.emisor=txtUsuario.value
     ws.send(JSON.stringify(mensaje));
+    txtMsj.value=""
+    txtMsj.focus()
 }
 //al cargarse la página se ejecuta esta función
 window.onload = function () {
@@ -55,7 +57,13 @@ function conectar() {
                 `
             });
         }else if(json.tipo == "mensaje"){
-            txtChat.value+=`${json.cuerpo.emisor} dice: ${json.cuerpo.contenido}\n`;
+            var dice;
+            if(json.cuerpo.destinatario=="todos"){
+                dice="dice a todos:"
+            }else{
+                dice="dice por privado:"
+            }
+            txtChat.value+=`${json.cuerpo.emisor} ${dice} ${json.cuerpo.contenido}\n`;
         }
 
         // var txtChat = document.getElementById("txtChat");
